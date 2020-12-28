@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "5.0.0",
+    "generators": { 
+      "v2.0": { 
+        "generatorName": "typescript-axios",
+        "output": "#{cwd}/output/#{name}",
+        "glob": "astarte_appengine_api.yaml",
+        "skipValidateSpec": false,
+        "additionalProperties": {
+          "npmName": "#{name}-client",
+          "supportsES6": "true",
+          "withInterfaces": true
+        }
+      }
+    }
+  }
+}

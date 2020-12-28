@@ -1,0 +1,28 @@
+{
+  "name": "astarte_appengine_api_client",
+  "version": "0.10.2",
+  "description": "OpenAPI client for astarte_appengine_api-client",
+  "author": "OpenAPI-Generator Contributors",
+  "keywords": [
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    "astarte_appengine_api-client"
+  ],
+  "license": "Unlicense",
+  "main": "./dist/index.js",
+  "files": ["dist"],
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "typescript": "^3.6.4"
+  }
+}
